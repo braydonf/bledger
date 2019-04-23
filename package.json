@@ -45,17 +45,14 @@
     "bmutex": "~0.1.5",
     "bsert": "0.0.9",
     "buffer-map": "0.0.6",
-    "bufio": "^1.0.5"
+    "bufio": "^1.0.5",
+    "bcoin": "git+https://github.com/bcoin-org/bcoin.git#master"
   },
   "optionalDependencies": {
     "node-hid": "^0.7.3",
     "u2f-api": "^1.0.8"
   },
-  "peerDependencies": {
-    "bcoin": "^1.0.2"
-  },
   "devDependencies": {
-    "bcoin": "^1.0.2",
     "bmocha": "^1.5.0"
   },
   "engines": {
