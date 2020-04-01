@@ -37,14 +37,15 @@
     "./lib/bledger": "./lib/bledger-browser.js"
   },
   "dependencies": {
-    "bcrypto": "git+https://github.com/bcoin-org/bcrypto#semver:^5.1.0",
+    "bcrypto": "git+https://github.com/bcoin-org/bcrypto#semver:~5.0.4",
     "blgr": "git+https://github.com/bcoin-org/blgr#semver:~0.1.7",
     "bmutex": "git+https://github.com/bcoin-org/bmutex#semver:~0.1.6",
     "bsert": "git+https://github.com/chjj/bsert#semver:~0.0.10",
     "buffer-map": "git+https://github.com/chjj/buffer-map#semver:~0.0.7",
     "bufio": "git+https://github.com/bcoin-org/bufio#semver:^1.0.6",
-    "busb": "git+https://github.com/braydonf/busb#deps",
-    "loady": "git+https://github.com/chjj/loady#semver:~0.0.1"
+    "busb": "git+https://github.com/nodar-chkuaselidze/busb#master",
+    "loady": "git+https://github.com/chjj/loady#semver:~0.0.1",
+    "nan": "git+https://github.com/braydonf/nan.git#semver:^2.14.0"
   },
   "peerDependencies": {
     "bcoin": "git+https://github.com/bcoin-org/bcoin#semver:^2.0.0"
